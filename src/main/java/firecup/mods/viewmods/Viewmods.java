@@ -1,5 +1,6 @@
 package firecup.mods.viewmods;
 
+import firecup.mods.viewmods.block.ViewerBlock;
 import firecup.mods.viewmods.item.ViewerItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class Viewmods implements ModInitializer {
     @Override
     public void onInitialize() {
         ViewerItems.registermoditems();
+        ViewerBlock.registermodblocks();
 
     }
 }
