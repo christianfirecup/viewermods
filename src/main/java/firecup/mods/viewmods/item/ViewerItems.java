@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ViewerItems {
-    public static final Item STONESTICK = registeritem("stone_stick" , new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item STONESTICK = registeritem("stone_stick" , new Item(new FabricItemSettings().group(VMCreativeTab.VMODS)));
 
 
 
